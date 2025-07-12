@@ -4,8 +4,8 @@ from sentence_transformers import SentenceTransformer, util
 import re
 
 # Google API credentials
-API_KEY = "AIzaSyAYYSSVruHFunVUfYQw6HrPtn0_Epabz7I"
-CSE_ID = "b553681ed7b664992"
+API_KEY = " your api key"
+CSE_ID = " your cse id"
 
 # Load semantic model
 model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
